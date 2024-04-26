@@ -15,7 +15,7 @@ teks += `ㅤ
 │
 │       𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘥@:
 │       👺𝘏𝘰𝘳𝘢𝘳𝘪𐐫:
-│         ‧₊⌗ 00 🇵🇪 ⌇ 01 🇨🇱 ⌇ 02 🇦🇷      
+│         ‧₊⌗ 19 🇵🇪 ⌇ 20 🇨🇱 ⌇ 21 🇦🇷      
 │
 │ㅤㅤʚ 𝘑𝘶𝘨𝘢𝘥𝘰𝘳𝘦𝘴:
 │ㅤ❤️‍🔥• 
@@ -32,9 +32,9 @@ teks += `ㅤ
 ╰───────────────•`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
-handler.help = ['smsm00 <mesaje>','masc00 <mesaje>']
+handler.help = ['smsm19 <mesaje>','masc19 <mesaje>']
 handler.tags = ['group']
-handler.command = /^(smsm00|masc00)$/i
+handler.command = /^(smsm19|masc19)$/i
 handler.admin = true
 handler.group = true
 export default handler
